@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ActivityQueueSegregation", "ActivityQueueSegregation", "{00F9082E-15C8-F762-D1BD-DD949ABBC95A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemporalioHelloWorld.Practice.Workflow", "src\ActivityQueueSegregation\Workflow\TemporalioHelloWorld.Practice.Workflow.csproj", "{C8517E47-03D3-C1C8-5C6E-8789DC2DA1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemporalioHelloWorld.Practice.Worker", "src\ActivityQueueSegregation\Worker\TemporalioHelloWorld.Practice.Worker.csproj", "{E3B8A8B1-E5BB-6ED3-D435-048A1140BD18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemporalioHelloWorld.Practice.Client", "src\ActivityQueueSegregation\Client\TemporalioHelloWorld.Practice.Client.csproj", "{79F3C347-FB52-2305-078A-44E8AF782265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8517E47-03D3-C1C8-5C6E-8789DC2DA1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8517E47-03D3-C1C8-5C6E-8789DC2DA1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8517E47-03D3-C1C8-5C6E-8789DC2DA1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8517E47-03D3-C1C8-5C6E-8789DC2DA1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B8A8B1-E5BB-6ED3-D435-048A1140BD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B8A8B1-E5BB-6ED3-D435-048A1140BD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B8A8B1-E5BB-6ED3-D435-048A1140BD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B8A8B1-E5BB-6ED3-D435-048A1140BD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F3C347-FB52-2305-078A-44E8AF782265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F3C347-FB52-2305-078A-44E8AF782265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F3C347-FB52-2305-078A-44E8AF782265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F3C347-FB52-2305-078A-44E8AF782265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00F9082E-15C8-F762-D1BD-DD949ABBC95A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{C8517E47-03D3-C1C8-5C6E-8789DC2DA1CF} = {00F9082E-15C8-F762-D1BD-DD949ABBC95A}
+		{E3B8A8B1-E5BB-6ED3-D435-048A1140BD18} = {00F9082E-15C8-F762-D1BD-DD949ABBC95A}
+		{79F3C347-FB52-2305-078A-44E8AF782265} = {00F9082E-15C8-F762-D1BD-DD949ABBC95A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5C3EE26-7609-4DE4-A66A-797EFE598C21}
+	EndGlobalSection
+EndGlobal
