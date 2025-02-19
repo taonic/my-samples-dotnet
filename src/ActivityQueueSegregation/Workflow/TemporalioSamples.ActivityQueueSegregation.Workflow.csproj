@@ -1,6 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <ItemGroup>
         <ProjectReference Include="..\ActivityWorker1\TemporalioSamples.ActivityQueueSegregation.ActivityWorker1.csproj" />
-        <ProjectReference Include="..\ActivityWorker2\TemporalioSamples.ActivityQueueSegregation.ActivityWorker2.csproj" />
     </ItemGroup>
 </Project>
