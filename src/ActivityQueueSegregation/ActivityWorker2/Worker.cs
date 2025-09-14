@@ -2,7 +2,6 @@
 
 using Temporalio.Client;
 using Temporalio.Worker;
-using TemporalioSamples.ActivityQueueSegregation;
 
 public sealed class Worker
 {
@@ -11,7 +10,7 @@ public sealed class Worker
     public static async Task Main(string[] args)
     {
         // Create a client to localhost on "default" namespace
-        var client = await TemporalClient.ConnectAsync(new("localhost:7233"));
+        var client = await TemporalClient.ConnectAsync(new ("localhost:7233"));
 
         // Cancellation token to shutdown worker on ctrl+c
         using var tokenSource = new CancellationTokenSource();

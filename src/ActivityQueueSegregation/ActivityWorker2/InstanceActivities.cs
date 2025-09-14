@@ -4,7 +4,7 @@ using Temporalio.Activities;
 
 public class InstanceActivities
 {
-    private readonly MyDatabaseClient dbClient = new();
+    private readonly MyDatabaseClient dbClient = new ();
 
     // Activities can be methods that can access state
     [Activity]
